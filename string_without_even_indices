@@ -1,0 +1,13 @@
+Python program that prints the string s without the characters located at even indices.
+s ="Coding"
+
+new_s = ""
+
+
+for i in range(len(s)):
+    if i % 2!=0:
+
+        new_s +=s[i]
+
+print(new_s)
+
