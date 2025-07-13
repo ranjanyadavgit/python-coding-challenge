@@ -1,0 +1,10 @@
+# Option 1
+# Write a Python program that prints the first and last three characters of the string s as a single string.
+s = "wonderful"
+
+if(len(s) < 6) :
+  print("")
+else:
+  new_string = s[:3] + s[len(s)-3:]
+  print(new_string)
+  
